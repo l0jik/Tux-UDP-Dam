@@ -29,16 +29,29 @@ and
 
 cgroup (cgroup v2 must be in /sys/fs/cgroup/cgroup.controllers path)
 
+
+
 USAGE (it needs root privileges)-
+
+
 
 sudo ./tux_udp_dam.sh enable [--allow-dns] [--allow-program PATH ...]
 
+
+
 sudo ./tux_udp_dam.sh disable
+
+
 
 sudo ./tux_udp_dam.sh status
 
+
+
 ENABLING DNS
+
+
 The following command:
+
 
 sudo ./tux_udp_dam.sh enable --allow-dns
 
